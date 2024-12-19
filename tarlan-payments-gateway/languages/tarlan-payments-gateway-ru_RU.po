@@ -1,120 +1,206 @@
+#, fuzzy
 msgid ""
 msgstr ""
 "Project-Id-Version: Tarlan Payments Gateway\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-05 14:13+0000\n"
-"PO-Revision-Date: 2024-05-05 14:32+0000\n"
+"POT-Creation-Date: 2024-12-10 00:00+0000\n"
+"PO-Revision-Date: 2024-12-10 14:48+0500\n"
 "Last-Translator: \n"
-"Language-Team: Русский\n"
-"Language: ru_RU\n"
-"Plural-Forms: nplurals=3; plural=(n%10==1 && n%100!=11 ? 0 : n%10 >= 2 && "
-"n%10<=4 &&(n%100<10||n%100 >= 20)? 1 : 2);\n"
+"Language-Team: \n"
+"Language: ru\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
-"X-Generator: Loco https://localise.biz/\n"
+"X-Generator: Poedit 3.5\n"
 "X-Loco-Version: 2.6.7; wp-6.5.2\n"
-"X-Domain: tarlan-payments-gateway"
+"X-Domain: tarlan-payments-gateway\n"
 
-#: class-gateway.php:217 class-gateway.php:228 class-gateway.php:231
-msgid "An error occurred when accepting payment"
-msgstr "Возникла ошибка при приеме платежа"
-
-#: class-gateway.php:71
-msgid "Failure redirect URL"
-msgstr "URL-адрес перенаправления в случае неуспешного платежа"
-
-#: class-gateway.php:82
-msgid ""
-"In this mode, you can test the capabilities of the Tarlan Payments payment "
-"gateway"
-msgstr ""
-"В данном режиме вы сможете протестировать возможности платежного шлюза "
-"Tarlan Payments"
-
-#: class-gateway.php:43
+#: class-gateway.php:4
 msgid "Merchant ID"
-msgstr "Идентификатор Мерчанта"
+msgstr "Идентификатор мерчанта"
 
-#: class-gateway.php:80
-msgid "On/Off"
-msgstr "Включить/Выключить"
-
-#: class-gateway.php:50
-msgid "Project ID"
-msgstr "Идентификатор Проекта"
-
-#: class-gateway.php:106 class-gateway.php:138 class-gateway.php:146
-msgid "Refund failed"
-msgstr "Ошибка возврата средств"
-
-#: class-gateway.php:57
-msgid "Secret Key"
-msgstr "Секретный ключ проекта"
-
-#: class-gateway.php:64
-msgid "Success redirect URL"
-msgstr "URL-адрес перенаправления в случае успешного платежа"
-
-#: class-gateway.php:17
-msgid "Tarlan Payments"
-msgstr "Tarlan Payments"
-
-#. Author of the plugin
-msgid "Tarlan Payments Dev Team"
-msgstr "Tarlan Payments Dev Team"
-
-#. Name of the plugin
-msgid "Tarlan Payments Gateway"
-msgstr "Шлюз Tarlan Payments"
-
-#. Description of the plugin
-#: class-gateway.php:18
-msgid ""
-"Tarlan Payments is your reliable partner for secure and convenient online "
-"payment processing. We guarantee fast transaction processing and high level "
-"of protection"
+#: class-gateway.php:5 class-gateway.php:43
+msgid "This ID is your merchant ID in the Tarlan Payments system"
 msgstr ""
-"Tarlan Payments - ваш надежный партнер для безопасной и удобной обработки "
-"онлайн-платежей. Мы гарантируем быструю обработку транзакций и высокую "
-"безопасность"
+"Этот идентификатор является вашим идентификатором продавца в платежной "
+"системе Tarlan"
 
-#. Author URI of the plugin
-msgid "tarlanpayments.kz"
-msgstr "tarlanpayments.kz"
+#: class-gateway.php:10
+msgid "Project ID"
+msgstr "Идентификатор проекта"
 
-#: class-gateway.php:78
-msgid "Test mode"
-msgstr "Тестовый режим"
+#: class-gateway.php:11 class-gateway.php:49
+msgid "This ID is your project ID in the Tarlan Payments system"
+msgstr ""
+"Этот идентификатор является идентификатором вашего проекта в платежной "
+"системе Tarlan"
 
-#: class-gateway.php:73
+#: class-gateway.php:14
+msgid "Secret Key"
+msgstr "Секретный ключ"
+
+#: class-gateway.php:15 class-gateway.php:55
+msgid "You can get this key during onboarding in Tarlan Payments"
+msgstr ""
+"Вы можете получить этот ключ во время регистрации в системе Tarlan Payments"
+
+#: class-gateway.php:20
+msgid "Success Redirect Type"
+msgstr "Тип успешного перенаправления"
+
+#: class-gateway.php:21
+msgid "Choose where to redirect users upon successful payment."
+msgstr "Выберите, куда перенаправлять пользователей после успешной оплаты."
+
+#: class-gateway.php:26
+msgid "Order Received Page"
+msgstr "Страница получения заказа"
+
+#: class-gateway.php:27
+msgid "Custom URL"
+msgstr "Пользовательский URL-адрес"
+
+#: class-gateway.php:30
+msgid "Custom Success Redirect URL"
+msgstr "Настраиваемый URL-адрес успешного перенаправления"
+
+#: class-gateway.php:31
+msgid ""
+"Enter the URL to redirect users upon successful payment if 'Custom URL' is "
+"selected."
+msgstr ""
+"Введите URL-адрес для перенаправления пользователей после успешной оплаты, "
+"если выбран \"Пользовательский URL\"."
+
+#: class-gateway.php:36
+msgid "Failure redirect URL"
+msgstr "URL-адреса на перенаправление после неуспешной оплаты"
+
+#: class-gateway.php:37
 msgid ""
 "The user will be automatically redirected to this Internet address if the "
 "payment is unsuccessful"
 msgstr ""
-"Пользователь будет автоматически перенаправлен на данный интернет-адрес при "
-"неуспешном проведении платежа"
+"В случае неудачной оплаты пользователь будет автоматически перенаправлен "
+"на этот интернет-адрес"
 
-#: class-gateway.php:66
+#: class-gateway.php:42
+msgid "Test merchant ID"
+msgstr "Идентификатор мерчанта в тестовой среде"
+
+#: class-gateway.php:48
+msgid "Test project ID"
+msgstr "Идентификатор проекта в тестовой среде"
+
+#: class-gateway.php:54
+msgid "Test secret Key"
+msgstr "Секретный ключ в тестовой среде"
+
+#: class-gateway.php:60
+msgid "Test mode"
+msgstr "Тестовый режим"
+
+#: class-gateway.php:61
+msgid "On/Off"
+msgstr "Вкл/Выкл"
+
+#: class-gateway.php:62
 msgid ""
-"The user will be automatically redirected to this Internet address upon "
-"successful payment"
+"In this mode, you can test the capabilities of the Tarlan Payments payment "
+"gateway"
 msgstr ""
-"Пользователь будет автоматически перенаправлен на данный интернет-адрес при "
-"успешном проведении платежа"
-
-#: class-gateway.php:45 class-gateway.php:52
-msgid "This ID is your merchant ID in the Tarlan Payments system"
-msgstr ""
-"Данный идентификатор является вашим идентификатором мерчанта в системе "
-"Tarlan Payments"
-
-#: class-gateway.php:52
-msgid "This ID is your project ID in the Tarlan Payments system"
-msgstr ""
-"Данный идентификатор является вашим идентификатором проекта в системе Tarlan "
+"В этом режиме вы можете протестировать возможности платежного шлюза Tarlan "
 "Payments"
 
-#: class-gateway.php:59
-msgid "You can get this key during onboarding in Tarlan Payments"
-msgstr "Вы можете получить данный ключ при онбординге в Tarlan Payments"
+#: class-gateway.php:67
+msgid "Status Mapping"
+msgstr "Маппер статусов"
+
+#: class-gateway.php:68
+msgid "Map Tarlan Payments status codes to WooCommerce order statuses"
+msgstr ""
+"Сопоставьте коды статуса платежей Tarlan со статусами заказов в WooCommerce"
+
+#: class-gateway.php:72
+msgid "Success status"
+msgstr "Статус \"success\""
+
+#: class-gateway.php:73
+msgid ""
+"Select the WooCommerce order status when the Tarlan Payments status is "
+"'success'."
+msgstr ""
+"Выберите статус заказа в WooCommerce, если статус платежей Tarlan равен "
+"\"success\"."
+
+#: class-gateway.php:76
+msgid "Holded status"
+msgstr "Статус \"holded\""
+
+#: class-gateway.php:77
+msgid ""
+"Select the WooCommerce order status when the Tarlan Payments status is "
+"'holded'."
+msgstr ""
+"Выберите статус заказа в WooCommerce, если статус платежей Tarlan равен "
+"\"holded\"."
+
+#: class-gateway.php:80
+msgid "Processed status"
+msgstr "Статус \"processed\""
+
+#: class-gateway.php:81
+msgid ""
+"Select the WooCommerce order status when the Tarlan Payments status is "
+"'processed'."
+msgstr ""
+"Выберите статус заказа в WooCommerce, если статус платежей Tarlan равен "
+"\"processed\"."
+
+#: class-gateway.php:84
+msgid "Refund status"
+msgstr "Статус \"refund\""
+
+#: class-gateway.php:85
+msgid ""
+"Select the WooCommerce order status when the Tarlan Payments status is "
+"'refund'."
+msgstr ""
+"Выберите статус заказа в WooCommerce, если статус платежей Tarlan равен "
+"\"refund\"."
+
+#: class-gateway.php:88
+msgid "Failed status"
+msgstr "Статус \"failed\""
+
+#: class-gateway.php:89
+msgid ""
+"Select the WooCommerce order status when the Tarlan Payments status is "
+"'failed'."
+msgstr ""
+"Выберите статус заказа в WooCommerce, если статус платежей Tarlan равен "
+"\"failed\"."
+
+#: class-gateway.php:92
+msgid "Canceled status"
+msgstr "Статус \"canceled\""
+
+#: class-gateway.php:93
+msgid ""
+"Select the WooCommerce order status when the Tarlan Payments status is "
+"'canceled'."
+msgstr ""
+"Выберите статус заказа в WooCommerce, если статус платежей Tarlan равен "
+"\"canceled\"."
+
+#: class-gateway.php:96
+msgid "Pending status"
+msgstr "Статус \"pending\""
+
+#: class-gateway.php:97
+msgid ""
+"Select the WooCommerce order status when the Tarlan Payments status is "
+"'pending'."
+msgstr ""
+"Выберите статус заказа в WooCommerce, если статус платежей Tarlan равен "
+"\"pending\"."

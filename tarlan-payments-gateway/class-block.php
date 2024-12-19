@@ -31,9 +31,8 @@ final class Tarlan_Payments_Gateway_Blocks extends AbstractPaymentMethodType {
             null,
             true
         );
-        if( function_exists( 'wp_set_script_translations' ) ) {            
+        if( function_exists( 'wp_set_script_translations' ) ) {
             wp_set_script_translations( 'tarlan_payments_gateway-blocks-integration');
-            
         }
         return [ 'tarlan_payments_gateway-blocks-integration' ];
     }

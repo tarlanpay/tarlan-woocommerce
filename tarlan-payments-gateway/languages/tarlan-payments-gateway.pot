@@ -3,7 +3,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Tarlan Payments Gateway\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-05-05 14:13+0000\n"
+"POT-Creation-Date: 2024-12-10 00:00+0000\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: \n"
@@ -16,92 +16,158 @@ msgstr ""
 "X-Loco-Version: 2.6.7; wp-6.5.2\n"
 "X-Domain: tarlan-payments-gateway"
 
-#: class-gateway.php:217 class-gateway.php:228 class-gateway.php:231
-msgid "An error occurred when accepting payment"
-msgstr ""
-
-#: class-gateway.php:71
-msgid "Failure redirect URL"
-msgstr ""
-
-#: class-gateway.php:82
-msgid ""
-"In this mode, you can test the capabilities of the Tarlan Payments payment "
-"gateway"
-msgstr ""
-
-#: class-gateway.php:43
+#: class-gateway.php:4
 msgid "Merchant ID"
 msgstr ""
 
-#: class-gateway.php:80
-msgid "On/Off"
-msgstr ""
-
-#: class-gateway.php:50
-msgid "Project ID"
-msgstr ""
-
-#: class-gateway.php:52
-msgid "This ID is your project ID in the Tarlan Payments system"
-msgstr ""
-
-#: class-gateway.php:106 class-gateway.php:138 class-gateway.php:146
-msgid "Refund failed"
-msgstr ""
-
-#: class-gateway.php:57
-msgid "Secret Key"
-msgstr ""
-
-#: class-gateway.php:64
-msgid "Success redirect URL"
-msgstr ""
-
-#: class-gateway.php:17
-msgid "Tarlan Payments"
-msgstr ""
-
-#. Author of the plugin
-msgid "Tarlan Payments Dev Team"
-msgstr ""
-
-#. Name of the plugin
-msgid "Tarlan Payments Gateway"
-msgstr ""
-
-#. Description of the plugin
-#: class-gateway.php:18
-msgid ""
-"Tarlan Payments is your reliable partner for secure and convenient online "
-"payment processing. We guarantee fast transaction processing and high level "
-"of protection"
-msgstr ""
-
-#. Author URI of the plugin
-msgid "tarlanpayments.kz"
-msgstr ""
-
-#: class-gateway.php:78
-msgid "Test mode"
-msgstr ""
-
-#: class-gateway.php:73
-msgid ""
-"The user will be automatically redirected to this Internet address if the "
-"payment is unsuccessful"
-msgstr ""
-
-#: class-gateway.php:66
-msgid ""
-"The user will be automatically redirected to this Internet address upon "
-"successful payment"
-msgstr ""
-
-#: class-gateway.php:45 class-gateway.php:52
+#: class-gateway.php:5
 msgid "This ID is your merchant ID in the Tarlan Payments system"
 msgstr ""
 
-#: class-gateway.php:59
+#: class-gateway.php:10
+msgid "Project ID"
+msgstr ""
+
+#: class-gateway.php:11
+msgid "This ID is your project ID in the Tarlan Payments system"
+msgstr ""
+
+#: class-gateway.php:14
+msgid "Secret Key"
+msgstr ""
+
+#: class-gateway.php:15
 msgid "You can get this key during onboarding in Tarlan Payments"
+msgstr ""
+
+#: class-gateway.php:20
+msgid "Success Redirect Type"
+msgstr ""
+
+#: class-gateway.php:21
+msgid "Choose where to redirect users upon successful payment."
+msgstr ""
+
+#: class-gateway.php:26
+msgid "Order Received Page"
+msgstr ""
+
+#: class-gateway.php:27
+msgid "Custom URL"
+msgstr ""
+
+#: class-gateway.php:30
+msgid "Custom Success Redirect URL"
+msgstr ""
+
+#: class-gateway.php:31
+msgid "Enter the URL to redirect users upon successful payment if 'Custom URL' is selected."
+msgstr ""
+
+#: class-gateway.php:36
+msgid "Failure redirect URL"
+msgstr ""
+
+#: class-gateway.php:37
+msgid "The user will be automatically redirected to this Internet address if the payment is unsuccessful"
+msgstr ""
+
+#: class-gateway.php:42
+msgid "Test merchant ID"
+msgstr ""
+
+#: class-gateway.php:43
+msgid "This ID is your merchant ID in the Tarlan Payments system"
+msgstr ""
+
+#: class-gateway.php:48
+msgid "Test project ID"
+msgstr ""
+
+#: class-gateway.php:49
+msgid "This ID is your project ID in the Tarlan Payments system"
+msgstr ""
+
+#: class-gateway.php:54
+msgid "Test secret Key"
+msgstr ""
+
+#: class-gateway.php:55
+msgid "You can get this key during onboarding in Tarlan Payments"
+msgstr ""
+
+#: class-gateway.php:60
+msgid "Test mode"
+msgstr ""
+
+#: class-gateway.php:61
+msgid "On/Off"
+msgstr ""
+
+#: class-gateway.php:62
+msgid "In this mode, you can test the capabilities of the Tarlan Payments payment gateway"
+msgstr ""
+
+#: class-gateway.php:67
+msgid "Status Mapping"
+msgstr ""
+
+#: class-gateway.php:68
+msgid "Map Tarlan Payments status codes to WooCommerce order statuses"
+msgstr ""
+
+#: class-gateway.php:72
+msgid "Success status"
+msgstr ""
+
+#: class-gateway.php:73
+msgid "Select the WooCommerce order status when the Tarlan Payments status is 'success'."
+msgstr ""
+
+#: class-gateway.php:76
+msgid "Holded status"
+msgstr ""
+
+#: class-gateway.php:77
+msgid "Select the WooCommerce order status when the Tarlan Payments status is 'holded'."
+msgstr ""
+
+#: class-gateway.php:80
+msgid "Processed status"
+msgstr ""
+
+#: class-gateway.php:81
+msgid "Select the WooCommerce order status when the Tarlan Payments status is 'processed'."
+msgstr ""
+
+#: class-gateway.php:84
+msgid "Refund status"
+msgstr ""
+
+#: class-gateway.php:85
+msgid "Select the WooCommerce order status when the Tarlan Payments status is 'refund'."
+msgstr ""
+
+#: class-gateway.php:88
+msgid "Failed status"
+msgstr ""
+
+#: class-gateway.php:89
+msgid "Select the WooCommerce order status when the Tarlan Payments status is 'failed'."
+msgstr ""
+
+#: class-gateway.php:92
+msgid "Canceled status"
+msgstr ""
+
+#: class-gateway.php:93
+msgid "Select the WooCommerce order status when the Tarlan Payments status is 'canceled'."
+msgstr ""
+
+#: class-gateway.php:96
+msgid "Pending status"
+msgstr ""
+
+#: class-gateway.php:97
+msgid "Select the WooCommerce order status when the Tarlan Payments status is 'pending'."
 msgstr ""

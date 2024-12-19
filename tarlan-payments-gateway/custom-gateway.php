@@ -2,7 +2,7 @@
 /*
 Plugin Name: Tarlan Payments Gateway
 Description: Tarlan Payments is your reliable partner for secure and convenient online payment processing. We guarantee fast transaction processing and high level of protection
-Version: 1.0.0
+Version: 1.0.1
 Author: Tarlan Payments Dev Team
 Author URI: tarlanpayments.kz
 Text Domain: tarlan-payments-gateway
@@ -26,13 +26,13 @@ function woocommerce_myplugin(){
 add_filter('woocommerce_payment_gateways', 'add_tarlan_payments_gateway');
 
 function add_tarlan_payments_gateway($gateways) {
-  $gateways[] = 'Tarlan_Payments_Gateway';
-  return $gateways;
+    $gateways[] = 'Tarlan_Payments_Gateway';
+    return $gateways;
 }
 
 /**
- * Custom function to declare compatibility with cart_checkout_blocks feature 
-*/
+ * Custom function to declare compatibility with cart_checkout_blocks feature
+ */
 function declare_cart_checkout_blocks_compatibility() {
     // Check if the required class exists
     if (class_exists('\Automattic\WooCommerce\Utilities\FeaturesUtil')) {
